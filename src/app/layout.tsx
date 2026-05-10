@@ -101,11 +101,13 @@ export default function RootLayout({
           <LoadingScreen />
           <CustomCursor />
           <SmoothScroll>
-            {/* Background Effects */}
-            <div className="fixed inset-0 bg-grid pointer-events-none opacity-20" />
-            <div className="fixed top-[-10%] right-[-10%] glow-mesh bg-primary opacity-[0.3]" />
-            <div className="fixed bottom-[-10%] left-[-10%] glow-mesh bg-secondary opacity-[0.15]" />
-            <div className="fixed top-[40%] left-[20%] glow-mesh bg-accent opacity-[0.05]" />
+            {/* Background Effects Container */}
+            <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
+              <div className="absolute inset-0 bg-grid opacity-20" />
+              <div className="absolute top-[-10%] right-[-10%] glow-mesh bg-primary opacity-[0.3]" />
+              <div className="absolute bottom-[-10%] left-[-10%] glow-mesh bg-secondary opacity-[0.15]" />
+              <div className="absolute top-[40%] left-[20%] glow-mesh bg-accent opacity-[0.05]" />
+            </div>
 
             <div className="relative z-10 max-w-[1920px] mx-auto p-4 md:p-6">
               <div className="relative glass-morphism rounded-[2.5rem] overflow-hidden border border-white/5 shadow-2xl">
