@@ -42,7 +42,7 @@ export default function Navbar() {
       )}
     >
       <div className={cn(
-        "flex items-center justify-between px-12 py-3 rounded-2xl transition-all duration-300",
+        "flex items-center justify-between px-4 md:px-12 py-3 rounded-2xl transition-all duration-300",
         isScrolled ? "glass border-white/10 shadow-2xl" : "bg-transparent"
       )}>
         <motion.div
