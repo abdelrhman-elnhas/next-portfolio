@@ -1,11 +1,17 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export",
-  basePath: "/",
-  images: {
-    unoptimized: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/v1",
+        destination: "/v1/index.html",
+      },
+      {
+        source: "/v1/:path*",
+        destination: "/v1/index.html",
+      },
+    ];
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

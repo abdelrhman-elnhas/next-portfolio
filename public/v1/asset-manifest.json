@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/v1/static/css/main.46f95b8a.css",
+    "main.js": "/v1/static/js/main.e7229739.js",
+    "static/js/453.bb257cf5.chunk.js": "/v1/static/js/453.bb257cf5.chunk.js",
+    "static/media/AbdelrhmanElnhasCV2026.pdf": "/v1/static/media/AbdelrhmanElnhasCV2026.ad483bf3f98c71a050c1.pdf",
+    "static/media/BebasNeue-Regular.ttf": "/v1/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "/v1/index.html",
+    "main.46f95b8a.css.map": "/v1/static/css/main.46f95b8a.css.map",
+    "main.e7229739.js.map": "/v1/static/js/main.e7229739.js.map",
+    "453.bb257cf5.chunk.js.map": "/v1/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46f95b8a.css",
+    "static/js/main.e7229739.js"
+  ]
+}
