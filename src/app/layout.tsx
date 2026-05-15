@@ -20,10 +20,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: `${personalInfo.name} | Senior Frontend Engineer & UI/UX Designer`,
+    default: `${personalInfo.name} | Frontend Engineer`,
     template: `%s | ${personalInfo.name}`
   },
-  description: `${personalInfo.name} (عبدالرحمن النحاس) is a Senior Frontend Engineer and UI/UX Designer specializing in React, Next.js, and premium digital products.`,
+  description: `${personalInfo.name} (عبدالرحمن النحاس) is a Frontend Engineer and UI/UX Designer specializing in React, Next.js, and premium digital products.`,
   keywords: [
     "Abdelrhman Elnhas",
     "Abdelrahman Elnahas",
@@ -43,7 +43,6 @@ export const metadata: Metadata = {
     "Graphic Designer",
     "AE",
     "AE Studio",
-    "AE_Studio",
   ],
   authors: [{ name: personalInfo.name }],
   creator: personalInfo.name,
