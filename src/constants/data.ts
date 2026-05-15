@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Abdelrhman Elnhas",
   firstName: "Abdelrhman",
   lastName: "Elnhas",
-  title: "Senior Frontend Engineer & UI/UX Designer",
+  title: "Frontend Engineer & UI/UX Designer",
   description: "Frontend Engineer building premium, high-performance web experiences with React & Next.js — combining clean architecture, modern UI/UX, and smooth interactive design to create products users remember.",
   about: "Frontend Software Engineer with 2+ years of experience in crafting engaging, interactive user interfaces using Vanilla JavaScript, React JS and Next JS . With a strong foundation in Graphic Design and UI/UX Design, blending creativity with technical proficiency. A dedicated professional with a profound passion for technology and a commitment to programming excellence",
   roles: ["Frontend Developer", "UI / UX Designer", "Graphic Designer"],

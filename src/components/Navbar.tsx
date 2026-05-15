@@ -50,7 +50,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <Link href="#home" className="flex items-center  gap-2 group">
+          <Link href="/" className="flex items-center  gap-2 group">
             <div className="relative w-14 h-14 transition-transform duration-300 group-hover:scale-110">
               <Image
                 src="/images/Logo.png"
