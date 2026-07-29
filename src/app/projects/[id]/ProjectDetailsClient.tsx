@@ -39,6 +39,8 @@ export default function ProjectDetailsClient({ id }: { id: string }) {
     );
   }
 
+  console.log("project.url", project.url);
+
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -115,8 +117,9 @@ export default function ProjectDetailsClient({ id }: { id: string }) {
 
                 <div className="flex flex-col gap-4">
                   {project.url && (
+
                     <Link
-                      href={project.url}
+                      href={project.url.startsWith("http") ? project.url : `https://${project.url}`}
                       target="_blank"
                       className="w-full py-4 bg-primary text-white rounded-2xl font-bold flex items-center justify-center gap-3 hover:scale-[1.02] transition-transform active:scale-95 shadow-xl shadow-primary/20 group"
                     >
