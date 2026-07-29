@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: `${personalInfo.name} | Frontend Engineer`,
     template: `%s | ${personalInfo.name}`
   },
-  description: `${personalInfo.name} (عبدالرحمن النحاس) is a Frontend Engineer and UI/UX Designer specializing in React, Next.js, and premium digital products.`,
+  description: `${personalInfo.name} (عبدالرحمن النحاس) is a Frontend Engineer with 3+ years of experience building modern web applications using React, Next.js, TypeScript, and Tailwind CSS. His multidisciplinary background in UI/UX design, graphic design, and video editing enables him to craft scalable, high-performance products with thoughtful user experiences and polished visual design.`,
   keywords: [
     "Abdelrhman Elnhas",
     "Abdelrahman Elnahas",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: personalInfo.name,
     images: [
       {
-        url: "/images/photo1.png",
+        url: "/images/AbdelrhmanElnhas.jpg",
         width: 1200,
         height: 630,
         alt: personalInfo.name,
