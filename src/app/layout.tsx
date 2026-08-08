@@ -55,12 +55,9 @@ export const metadata: Metadata = {
     description: personalInfo.about,
     siteName: personalInfo.name,
     images: [
-      {
-        url: "https://abdelrhman-elnhas.com/images/TEST-OG-123.jpg",
-        width: 1200,
-        height: 630,
-        alt: "TEST OG IMAGE",
-      },
+
+      "https://abdelrhman-elnhas.com/images/AbdelrhmanElnhas.jpg"
+
     ],
   },
   twitter: {
