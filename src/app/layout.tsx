@@ -56,10 +56,10 @@ export const metadata: Metadata = {
     siteName: personalInfo.name,
     images: [
       {
-        url: "https://abdelrhman-elnhas.com/images/AbdelrhmanElnhas.jpg",
+        url: "https://abdelrhman-elnhas.com/images/TEST-OG-123.jpg",
         width: 1200,
         height: 630,
-        alt: personalInfo.name,
+        alt: "TEST OG IMAGE",
       },
     ],
   },
