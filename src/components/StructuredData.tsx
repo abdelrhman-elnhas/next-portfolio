@@ -11,7 +11,7 @@ export default function StructuredData() {
     "url": "https://abdelrhman-elnhas.com/v2/",
     "jobTitle": personalInfo.title,
     "description": personalInfo.description,
-    "image": "https://abdelrhman-elnhas.com/v2/images/asd.png",
+    "image": "https://abdelrhman-elnhas.com/images/AbdelrhmanElnhas.jpg",
     "sameAs": [
       personalInfo.socials.linkedin,
       personalInfo.socials.github,
