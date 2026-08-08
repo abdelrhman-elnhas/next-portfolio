@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: personalInfo.name,
     images: [
       {
-        url: "/images/AbdelrhmanElnhas.jpg",
+        url: "https://abdelrhman-elnhas.com/images/AbdelrhmanElnhas.jpg",
         width: 1200,
         height: 630,
         alt: personalInfo.name,
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${personalInfo.name} | Frontend Engineer`,
     description: personalInfo.description,
-    images: ["/images/AbdelrhmanElnhas.jpg"],
+    images: ["https://abdelrhman-elnhas.com/images/AbdelrhmanElnhas.jpg"],
     creator: "@a_elnhas1",
   },
   robots: {
