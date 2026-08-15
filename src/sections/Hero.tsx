@@ -18,9 +18,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white text-[10px] sm:text-sm font-semibold tracking-wider uppercase mb-4 sm:mb-6 inline-block">
+            {/* <span className="px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white text-[10px] sm:text-sm font-semibold tracking-wider uppercase mb-4 sm:mb-6 inline-block">
               Available for New Projects
-            </span>
+            </span> */}
           </motion.div>
 
           <motion.h1
