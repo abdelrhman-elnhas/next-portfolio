@@ -14,7 +14,7 @@ export const personalInfo = {
     github: "https://www.github.com/abdelrhman-elnhas",
     behance: "https://www.behance.net/_ae_studio",
     twitter: "https://www.twitter.com/a_elnhas1",
-    whatsapp: "https://wa.me/+201127698622",
+    whatsapp: "https://wa.me/+201141050108",
   }
 };
 
